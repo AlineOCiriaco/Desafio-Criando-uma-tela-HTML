@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Primeiro HTML</title>
+</head>
+
+<header>
+<h2 id="inicio">
+   Trabalhando com HTML
+</h2>
+ <hr />
+</header>
+
+<nav>
+    <ul>
+        <li><a href="#iniciando">Iniciando com HTML</a></li>
+        <li><a href="#semantico">Entendendo HTML sêmantico</a></li>
+        <li><a href="#acessibilidade">A importancia da acessibilidade</a></li>
+    </ul>
+</nav>
+
+<body>
+    <main>
+        <h3 id="iniciando">
+            Iniciando com HTML 
+        </h3>
+        <hr>
+        <p>Concluí o módulo "Trabalhando com Formulários" do Bootcamp Santander 2025, voltado para o desenvolvimento web. Foi uma experiência breve, mas extremamente rica! 
+
+        <p>Principais aprendizados:</p> 
+
+        <ul>
+            <li>A estrutura básica de um formulário HTML (&lt;form&gt;, &lt;input&gt;, &lt;label&gt;, &lt;textarea&gt;, &lt;select&gt;, etc.).</li>
+            <li>A importância do atributo name para enviar dados corretamente Diferença entre os tipos de input (como text, radio, checkbox, email, password, entre outros).</li>
+            <li>Como aplicar validações simples diretamente no HTML com os atributos required, minlength, maxlength, pattern.</li>
+            <li>Uso do atributo action para definir o destino dos dados e method para especificar o tipo de requisição (GET ou POST).</li>
+            <li>Introdução ao uso do evento onsubmit para validar dados com JavaScript.</li>
+       </ul>
+         
+        <p></p>Esses conceitos são a base para desenvolver páginas interativas e funcionais, fundamentais para qualquer aplicação web.</p>
+
+        <h3 id="semantico">Entendendo o HTML semântico</h3><small> <a href="#inicio">Voltar</a></small>
+        <hr>
+        <p>
+        Durante esta etapa do bootcamp, aprofundei o uso de HTML semântico e tive uma introdução prática ao processo de Web Scraping.
+        </p>
+
+        <p> Principais aprendizados:</p>
+
+        <ul>
+            <li>Uso adequado de tags como <code>&lt;article&gt;</code>, <code>&lt;section&gt;</code>, <code>&lt;figure&gt;</code>, <code>&lt;figcaption&gt;</code>, <code>&lt;time&gt;</code> e <code>&lt;blockquote&gt;</code> para melhorar a estrutura semântica e a acessibilidade do conteúdo.</li>
+            <li>Aplicação do <code>&lt;picture&gt;</code> para imagens responsivas, adaptando o layout a diferentes tamanhos de tela.</li>
+        </ul>
+
+        <p>Fundamentos do Web Scraping, incluindo:</p>
+        <ul>
+            <li>Identificação do conteúdo-alvo em páginas web;</li>
+            <li>Análise do código-fonte (HTML);</li>
+            <li>Extração de dados com bibliotecas como <code>BeautifulSoup</code>, <code>Scrapy</code> e <code>Selenium</code>;</li>
+            <li>Organização dos dados extraídos em formatos estruturados (JSON, XML, Excel).</li>
+        </ul>
+
+        <p>
+        Esse conhecimento reforça a importância de estruturar páginas web de forma clara, acessível e funcional, além de abrir portas para aplicações mais avançadas com automação e análise de dados.
+        </p>
+
+        <h3 id="acessibilidade"> Acessibilidade em HTML: inclusão desde o código</h3><small> <a href="#inicio">Voltar</a></small>
+
+        <p>A acessibilidade na web garante que todas as pessoas, inclusive com deficiências visuais, auditivas, motoras ou cognitivas, possam navegar e interagir com páginas da internet de forma autônoma. No desenvolvimento HTML, isso envolve:</p>
+
+        <ul>
+            <li>Uso correto de tags semânticas (&lt;main&gt;, &lt;header&gt;, &lt;nav&gt;, &lt;article&gt;, &lt;section&gt;, etc.), para que leitores de tela consigam entender a estrutura da página;</li>
+            <li>Adição de textos alternativos em imagens com alt="" para descrever o conteúdo visual;</li>
+            <li>Criação de formulários com &lt;label&gt; associado a &lt;input&gt;, permitindo que o usuário saiba o que preencher;</li>
+            <li>Contraste de cores adequado e navegação por teclado (tabulação acessível)</li>
+        </ul>
+
+        <h4>  E o que é ARIA?</h4>
+        <p>  <abbr title="Accessible Rich Internet Applications">ARIA</abbr> é um conjunto de atributos HTML que fornece informações adicionais de acessibilidade, especialmente útil quando elementos interativos não são naturalmente compreendidos por leitores de tela.</p>
+        <ul>
+            <li>role="button" – informa que um &lt;div&gt; ou outro elemento age como botão. </li>
+            <li>aria-label="Fechar menu" – fornece uma descrição acessível mesmo sem texto visível.</li>
+            <li>aria-hidden="true" – esconde um conteúdo visual de tecnologias assistivas.</li>
+            <li>aria-expanded="false" – indica se um menu expansível está aberto ou fechado.</li>
+        </ul>
+
+        <p> Boas práticas com ARIA:</p>
+
+        <ul>
+            <li> Use primeiro HTML semântico. ARIA não substitui tags corretas — apenas complementa.</li>
+            <li> Evite usar ARIA sem necessidade, pois pode confundir leitores de tela se aplicado incorretamente.</li>
+            <li>Sempre teste a acessibilidade com ferramentas como o Lighthouse, NVDA ou o leitor de tela do seu sistema.</li>
+        </ul>
+       
+    </main>
+</body>
+<footer>
+
+</footer>
+</html>
